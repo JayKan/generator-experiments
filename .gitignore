@@ -1,1 +1,12 @@
-# Created by .ignore support plugin (hsz.mobi)
+# Node generated files
+node_modules
+npm-debug.log
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Ignored files
+*.js
+*.map
+*.d.ts
