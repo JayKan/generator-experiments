@@ -1,0 +1,43 @@
+{
+  "name": "generator-experiments",
+  "version": "1.0.0",
+  "description": "Learning how ES2015 generators work",
+  "scripts": {
+    "test": "mocha",
+    "fundamental": "nodemon fundamental/index.js",
+    "fibonacci": "nodemon fibonacci/index.js",
+    "coroutine": "nodemon coroutine/index.js",
+    "koa": "nodemon middleware/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayKan/generator-experiments.git"
+  },
+  "author": "Jay Kan <leicasper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JayKan/generator-experiments/issues"
+  },
+  "homepage": "https://github.com/JayKan/generator-experiments#readme",
+  "dependencies": {
+    "koa": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "esprima": "^2.7.2",
+    "estraverse": "^4.2.0",
+    "install": "^0.7.3",
+    "koa-compose": "^2.4.0",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.2",
+    "regenerator": "^0.8.46",
+    "superagent": "^1.8.3",
+    "thunkify": "^2.1.2"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
